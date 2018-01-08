@@ -11,6 +11,7 @@
 #include "ScoutManager.h"
 #include "StrategyManager.h"
 
+// daehun.jun
 namespace MyBot
 {
 	/// 상황을 판단하여, 정찰, 빌드, 공격, 방어 등을 수행하도록 총괄 지휘를 하는 class<br>
