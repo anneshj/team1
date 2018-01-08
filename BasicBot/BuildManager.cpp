@@ -9,7 +9,7 @@ BuildManager::BuildManager()
 // 빌드오더 큐에 있는 것에 대해 생산 / 건설 / 리서치 / 업그레이드를 실행한다
 void BuildManager::update()
 {
-	// 1초(24프레임)에 4번 정도만 실행해도 충분하다
+	// 1초(24프레임)에 4번 정도만 실행해도 충분하다...
 	if (BWAPI::Broodwar->getFrameCount() % 6 != 0) return;
 
 	if (buildQueue.isEmpty()) {
